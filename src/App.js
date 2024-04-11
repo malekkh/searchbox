@@ -5,7 +5,7 @@ function App() {
     const [searchTerm, setSearchTerm] = useState("");
 
     const handleSearch = () => {
-      const elements = document.querySelectorAll("p"); // Adjust this selector based on your HTML structure
+      const elements = document.querySelectorAll("p"); 
       elements.forEach((element) => {
         const text = element.textContent;
         const newText = text.replace(
@@ -28,7 +28,6 @@ function App() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        {/* Add more paragraphs or elements as needed */}
       </div>
     );
 
